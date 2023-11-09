@@ -163,7 +163,7 @@
 
 - ParentChild에서 someEvent라는 이름의 사용자 정의 이벤트를 발신
 
-```
+```html
 <!-- ParentChild.vue -->
 <button @click="$emit('someEvent')">클릭</button>
 ```
